@@ -3,10 +3,10 @@ Analyzed a file of 9000 data entries of a weather station using python pandas an
 Open the Weather project folder on your VS code and then run the code. It will answer all questions asked in comments.
 
 Code:
+
     import pandas as pd
     data=pd.read_csv("file.csv")
     #print(data)
-    
     #Unique 'wind speed' values in data 
     print(data['Wind Speed_km/h'].unique())
     print(data['Wind Speed_km/h'].nunique())
